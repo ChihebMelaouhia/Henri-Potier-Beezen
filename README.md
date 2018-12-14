@@ -3,7 +3,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 
 <h4>Partie Back-End : /henripoitierbe  </h4>
 <h4>Partie Front-End : /henripoitierfe </h4>
-<h4>Base de données : /BD/henripoitier.sql </h4>
+<h4>Fichier SQL pour installer la base de données : /BD/henripoitier.sql </h4>
 <br>
 
 <h2>Quelques explications :</h2>
