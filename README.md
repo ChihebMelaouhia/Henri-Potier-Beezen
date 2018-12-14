@@ -11,14 +11,14 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
  
 <p>Dès qu’un livre est ajouté au panier une suite de séquence est exécuter, chaque exemple dépend du nombre de livre ajouté au panier :</p>
 <h4>Exemple 1 :</h4>
-<p>Pour un seul livre (à 35) la requête ( http://localhost:8080/offers/getone?id=percentage ) fera appel en GET au service qui nous renverra l’offre de type « percentage » applicable à ce panier sous le format JSON :
+<p>Pour un seul livre (à 35€) la requête ( http://localhost:8080/offers/getone?id=percentage ) fera appel en GET au service qui nous renverra l’offre de type « percentage » applicable à ce panier sous le format JSON :
  {"offers":{"type":"percentage","value":4}} </p>
 <p>L’offre de réduction de type « percentage » sera appliqué à ce prix (35 €) et on obtiendra un nouveau prix après réduction (33.6 €).</p>
 <h4>Exemple 2 :</h4>
-<p>Pour deux livres (à 35 et 30€) la requête ( http://localhost:8080/offers/all ) fera appel en GET au service qui nous renverra les offres applicables à ce panier sous le format JSON : {"offers":[{"type":"percentage","value":4},{"type":"minus","value":15},{"type":"slice","value":12,"sliceValue":100}]} </p>
+<p>Pour deux livres (à 35€ et 30€) la requête ( http://localhost:8080/offers/all ) fera appel en GET au service qui nous renverra les offres applicables à ce panier sous le format JSON : {"offers":[{"type":"percentage","value":4},{"type":"minus","value":15},{"type":"slice","value":12,"sliceValue":100}]} </p>
 <p>La meilleure offre de réduction applicable à ce prix (65 €) est l’offre de type « minus » et on obtiendra un nouveau prix après réduction (50 €).</p>
 <h4>Exemple 3 :</h4>
-<p>Pour cinq livres (à 35, 30€, 30€, 29€ et 28€) la requête ( http://localhost:8080/offers/all ) fera appel en GET au service qui nous renverra les offres applicables à ce panier sous le format JSON : {"offers":[{"type":"percentage","value":4},{"type":"minus","value":15},{"type":"slice","value":12,"sliceValue":100}]} </p>
+<p>Pour cinq livres (à 35€, 30€, 30€, 29€ et 28€) la requête ( http://localhost:8080/offers/all ) fera appel en GET au service qui nous renverra les offres applicables à ce panier sous le format JSON : {"offers":[{"type":"percentage","value":4},{"type":"minus","value":15},{"type":"slice","value":12,"sliceValue":100}]} </p>
 <p>La meilleure offre de réduction applicable à ce prix (152 €) est l’offre de type « slice » et on obtiendra un nouveau prix après réduction (133.76 €).</p>
 <h2>Développement :</h2>
   <p>	Partie BackEnd développée avec le framework Spring Boot </p>
