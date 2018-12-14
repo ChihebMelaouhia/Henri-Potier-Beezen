@@ -11,7 +11,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
  
 <p>Dès qu’un livre est ajouté au panier une suite de séquence est exécuter, chaque exemple dépend du nombre de livre ajouté au panier :</p>
 <h4>Exemple 1 :</h4>
-<p>Pour un seul livre (à 35) la requête ( http://localhost:8080/offers/getone?id=percentage ) fera appel en GET au service qui nous renverra l’offre « percentage » applicable à ce panier sous le format JSON :
+<p>Pour un seul livre (à 35) la requête ( http://localhost:8080/offers/getone?id=percentage ) fera appel en GET au service qui nous renverra l’offre de type « percentage » applicable à ce panier sous le format JSON :
  {"offers":{"type":"percentage","value":4}} </p>
 <p>L’offre de réduction de type « percentage » sera appliqué à ce prix (35 €) et on obtiendra un nouveau prix après réduction (33.6 €).</p>
 <h4>Exemple 2 :</h4>
