@@ -19,7 +19,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 <h4>Exemple 3 :</h4>
 <p>Pour cinq livres (à 35, 30€, 30€, 29€ et 28€) la requête ( http://localhost:8080/offers/all ) fera appel en GET au service qui nous renverra les offres applicables à ce panier sous le format JSON : {"offers":[{"type":"percentage","value":4},{"type":"minus","value":15},{"type":"slice","value":12,"sliceValue":100}]} </p>
 <p>La meilleure offre de réduction applicable à ce prix (152 €) est l’offre de type « slice » et on obtiendra un nouveau prix après réduction (133.76 €).</p>
-<h2>Développement :<h2>
+<h2>Développement :</h2>
   <p>	Partie BackEnd développée avec le framework Spring Boot (Exécution du serveur) </p>
   <p>	Partie FrontEnd développée avec le framework Angular 6 (Exécution du serveur) </p>
   <p>	Lancement du projet avec la commande :                              ng s --o    </p>    
