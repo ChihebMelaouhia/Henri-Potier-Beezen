@@ -21,8 +21,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 <p>La meilleure offre de réduction applicable à ce prix (152 €) est l’offre de type « slice » et on obtiendra un nouveau prix après réduction (133.76 €).</p>
 <h2>Développement :</h2>
   <p>	Partie BackEnd développée avec le framework Spring Boot </p>
-  <p>	Partie FrontEnd développée avec le framework Angular 6  </p>
-  <p>	Lancement du projet avec la commande :                              ng s --o    </p>    
+  <p>	Partie FrontEnd développée avec le framework Angular 6  </p> 
 <h2> Les deux Interfaces :</h2>
  
 <p>L’interface principale (Liste des livres) : adresse ( http://localhost:4200/ )</p> 
