@@ -22,6 +22,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 <h2>Développement :</h2>
   <p>	Partie BackEnd développée avec le framework Spring Boot </p>
   <p>	Partie FrontEnd développée avec le framework Angular 6  </p> 
+  <p>•	Lancement du projet avec la commande : Run npm install, Run ng s --o </p>
 <h2> Les deux Interfaces :</h2>
  
 <p>L’interface principale (Liste des livres) : adresse ( http://localhost:4200/ )</p> 
