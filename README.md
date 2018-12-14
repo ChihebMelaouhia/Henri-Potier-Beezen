@@ -34,7 +34,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 <br>
 <br>
 <br>
-<h5>Autres captures de l'interface Panier</h5>
+<h5>Autres captures de l'interface du Panier</h5>
 <img src="panier1.PNG"> 
 <br>
 <img src="pVide.PNG"> 
