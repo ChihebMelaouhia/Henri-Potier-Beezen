@@ -27,8 +27,12 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
   <p>==>	<b>Nom de la base de données MySQL</b> : henripoitier  <b>Username</b>: root  <b>Password:</b> </p>
 <h2> Les deux Interfaces :</h2>
  
-<p>L’interface principale (Liste des livres) : adresse ( http://localhost:4200/ )</p> 
+<h5>L’interface principale (Liste des livres) : adresse ( http://localhost:4200/ )</h5> 
 <img src="listeBooks.PNG"> <br>
-<p>L’interface du panier : adresse ( http://localhost:4200/basket )</p>
+<h5>L’interface du panier : adresse ( http://localhost:4200/basket )</h5>
 <img src="panier.PNG"> <br>
+<br>
+<br>
+<h5>Autres captures de l'interface Panier</h5>
+<img src="panier1.PNG" width="50%"> <img src="pVide.PNG" width="50%> 
 
