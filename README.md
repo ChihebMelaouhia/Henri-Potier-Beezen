@@ -7,6 +7,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 
 <h2>Quelques explications :</h2>
 <p> Dés le lancement du projet ( http://localhost:4200/ ) la première interface est affichée, et la requête ( http://localhost:8080/books/all ) fera appel en GET au service qui nous renverra la liste des livres sous le format JSON. </p>
+<img src="books.PNG"><br>
  
 <p>Dès qu’un livre est ajouté au panier une suite de séquence est exécuter, chaque exemple dépend du nombre de livre ajouté au panier :</p>
 <h4>Exemple 1 :</h4>
@@ -26,5 +27,7 @@ Application "La bibliothèque d’Henri Potier", Back-End (Spring Boot), Front-E
 <h2> Les deux Interfaces :</h2>
  
 <p>L’interface principale (Liste des livres) : adresse ( http://localhost:4200/ )</p> 
+<img src="listeBooks.PNG"> <br>
 <p>L’interface du panier : adresse ( http://localhost:4200/basket )</p>
+<img src="panier.PNG"> <br>
 
